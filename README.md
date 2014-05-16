@@ -2,31 +2,51 @@ masktextfield
 =============
 
 Mask TextField for JavaFX
+
 By David Augusto
+
 davidaug23.7@gmail.com
+
 www.david.blog.br
 
-  EN:
+
+
   Class MaskTextField
+  
+  
   Use:
   
   1) Create a instace of the class(Or put a <MaskTextField>, same as <TextField> into the FXML)
+  
   2) Use the function setMask(String mask) to create a mask
+  
   3) With the characters above, set the mask [Ex: objectmask.setMask("XXXXXX")]
+  
   
   Characters of the mask:
   
+  
    \* = Accept any character
+   
    A = Only Alphanumerics
+   
    N = Only Numbers
+   
    L = Only Letters
+   
    U = Only Uppercase Letters
+   
    l = Only Lowercase Letters
+   
    S = Any character, except Space
+   
    P = Only Letters and Points
+   
    M = Letters, Numbers and Points
+   
 
   Examples above
+  
   
   
   ==================== EXAMPLES =====================
