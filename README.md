@@ -67,7 +67,7 @@ www.david.blog.br
   
   Accept any character and an Uppercase letter
   Ex:
-  /l , l , [space]l
+  /L , L , [space]L
   
   String mask = "Ul!"
   
