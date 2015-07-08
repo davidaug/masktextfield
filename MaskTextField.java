@@ -35,7 +35,7 @@ public class MaskTextField extends TextField {
        
         String tempText = this.getText() + text;
 
-        if(mask.length()==0||mask==null){
+        if(mask == null || mask.length() == 0){
             super.replaceText(start, end, text);
         }else if (tempText.matches(this.mask) || tempText.length() == 0) {        //text.length == 0 representa o delete ou backspace
 
